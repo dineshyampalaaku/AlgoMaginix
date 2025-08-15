@@ -1,9 +1,14 @@
 // pages/labs/ThinkLab.tsx
-export default function ThinkLab() {
+import React from 'react';
+
+const ThinkLab: React.FC = () => {
   return (
-    <div className="p-6 text-xl">
-      <h1>🧠 Think Lab</h1>
-      <p>Here you'll find puzzles, logic challenges, and idea boosters.</p>
+    <div className="p-4">
+      <h1 className="text-2xl font-bold">Think Lab 🧠</h1>
+      <p className="mt-2 text-gray-600">Welcome to the Think Lab! This section will include puzzles and logical games to boost creativity.</p>
     </div>
   );
-}
+};
+
+export default ThinkLab;
+
